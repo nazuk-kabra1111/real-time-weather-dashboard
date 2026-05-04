@@ -24,19 +24,21 @@ This application fetches real-time weather data from the OpenWeatherMap API and 
 
 
 ## Project Structure
+```
 weather-dashboard/
-│── index.html # Main HTML structure
-│── style.css  # Styling and layout
-│── weather.js # JavaScript logic & API handling
-│── images/    # Weather icons and assets
-│ ├── clear.png
-│ ├── cloudy.png
-│ ├── thunderstorm.png
-│ ├── haze.png
-│ ├── mist.png
-│ ├── moon.png
-│ └── ...
-│── README.md # Project documentation
+│── index.html        # Main HTML structure
+│── style.css         # Styling and layout
+│── weather.js        # JavaScript logic & API handling
+│── images/           # Weather icons and assets
+│   ├── clear.png
+│   ├── cloudy.png
+│   ├── thunderstorm.png
+│   ├── haze.png
+│   ├── mist.png
+│   ├── moon.png
+│   └── ...
+│── README.md         # Project documentation
+```
 
 ## Live Demo
 https://nazuk-kabra1111.github.io/real-time-weather-dashboard/
