@@ -27,7 +27,7 @@ else{
 }
 btn1.addEventListener("click",async ()=>{
     let inp1=inp.value.toLowerCase();
-    let url=`${base_url}q=${inp1}&appid=bc2775834334caa14b5712bb95a80c06&units=metric`;
+    let url=`${base_url}q=${inp1}&appid=YOUR_API_KEY&units=metric`;
     let response= await fetch(url);
     let newcity=await response.json();
     if(newcity.cod!==200){
