@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wtr">
+        <div class="city">
+            <input placeholder="Search Location">
+            <button class="btn"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+        </div>
+        <div class="res">
+            <img src="clear.png" height="150" width="150">
+            <p class="citydisp">Pune  <i class="fa-solid fa-paper-plane" id="plane"></i></p>
+            <p class="temp">20&deg;</p>
+            <p class="check"></p>
+        </div>
+        <div class="extras">
+            <div class="tempm">
+                <p class="fl">Feels like</p>
+                <p class="min">Temp-min</p>
+                <p class="max">Temp-max</p>
+            </div>
+            <div class="info">
+                <div class="hum">
+                    <img src="humidity.png" height="30" width="30">
+                    <div class="p1">
+                        <p class="hum1">Humidity</p>
+                        <p class="hum2"></p>
+                    </div>
+                </div>
+                <div class="windy">
+                    <img src="wind.png" height="30" width="30">
+                    <div class="p2">
+                        <p class="win1">Wind Speed</p>
+                        <p class="win2"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
